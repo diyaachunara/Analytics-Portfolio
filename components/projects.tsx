@@ -27,7 +27,31 @@ const Projects = () => {
       description:
         "An emotionally intelligent AI companion using facial expressions and voice to provide empathetic support.",
       tech: ["Next.js", "face-api.js", "Conversational AI", "TypeScript"],
-      link: "https://github.com/diyaachunara/ai-friend",
+      link: "https://github.com/diyaachunara/My-AI-Friend",
+      highlight: true,
+    },
+    {
+      title: "AI chatbot",
+      description:
+        "Chat SDK is a free, open-source template built with Next.js and the AI SDK that helps you quickly build powerful chatbot applications.",
+      tech: ["Next.js", "auth.js", "AI SDK", "Tailwind CSS"],
+      link: "https://github.com/diyaachunara/ai-chatbot",
+      highlight: true,
+    },
+    {
+      title: "Calender view",
+      description:
+        "It is designed for a hiring assignment and follows strict requirements for accessibility, performance, and code quality.",
+      tech: ["React", "vite", "Typescript", "Tailwind CSS"],
+      link: "https://github.com/diyaachunara/Calendar-View-Interactive-UI-Component",
+      highlight: true,
+    },
+    {
+      title: "Food Delivery App",
+      description:
+        "A modern Food Delivery Web Application built using Next.js and modern frontend tools.",
+      tech: ["Next.js", "Typescript", "Javascript", "Tailwind CSS"],
+      link: "https://github.com/diyaachunara/Food-Delivery-App",
       highlight: true,
     },
     {
@@ -41,6 +65,12 @@ const Projects = () => {
       description: "Data-driven analysis of ad performance with insights on conversion rates and audience engagement.",
       tech: ["Python", "Data Analytics", "Pandas", "Visualization"],
       link: "https://github.com/diyaachunara/Instagram-Ad-Campaign",
+    },
+    {
+      title: "Real Time Stock Analysis",
+      description: "It fetches live stock data using an API and presents insights through graphical representations to support data-driven decision making.",
+      tech: ["Python", "Matplotlib", "Pandas", "Numpy", "yfinance API"],
+      link: "https://github.com/diyaachunara/Real-Time-Stock-Analysis",
     },
     {
       title: "Student Feedback Analysis",
@@ -86,9 +116,8 @@ const Projects = () => {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className={`backdrop-blur-md bg-surface-light/40 border border-accent/10 hover:border-accent transition-all duration-300 hover:shadow-2xl hover:shadow-accent/20 hover:-translate-y-2 p-6 rounded-xl group relative overflow-hidden ${
-                isVisible ? `animate-in-up stagger-${(idx % 5) + 1}` : ""
-              } ${project.highlight ? "md:col-span-2 lg:col-span-3" : ""}`}
+              className={`backdrop-blur-md bg-surface-light/40 border border-accent/10 hover:border-accent transition-all duration-300 hover:shadow-2xl hover:shadow-accent/20 hover:-translate-y-2 p-6 rounded-xl group relative overflow-hidden ${isVisible ? `animate-in-up stagger-${(idx % 5) + 1}` : ""
+                } ${project.highlight ? "md:col-span-2 lg:col-span-3" : ""}`}
             >
               {/* Animated gradient border on hover */}
               <div className="absolute inset-0 bg-gradient-to-r from-accent/0 via-accent/10 to-accent-secondary/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

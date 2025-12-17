@@ -44,7 +44,7 @@ const Experience = () => {
 
   const education = [
     {
-      institution: "Pursuing B.Tech / BCA",
+      institution: "Pursuing B.Tech",
       field: "Computer Science & Technology",
       coursework: [
         "Web Development",
@@ -74,9 +74,8 @@ const Experience = () => {
               {experiences.map((exp, idx) => (
                 <div
                   key={exp.title}
-                  className={`backdrop-blur-md bg-surface-light/40 border border-accent/10 hover:border-accent transition-all duration-300 hover:shadow-lg hover:shadow-accent p-6 rounded-lg relative pl-6 border-l-2 border-accent/50 ${
-                    isVisible ? `animate-in-left stagger-${idx + 1}` : ""
-                  }`}
+                  className={`backdrop-blur-md bg-surface-light/40 border border-accent/10 hover:border-accent transition-all duration-300 hover:shadow-lg hover:shadow-accent p-6 rounded-lg relative pl-6 border-l-2 border-accent/50 ${isVisible ? `animate-in-left stagger-${idx + 1}` : ""
+                    }`}
                 >
                   <div className="absolute -left-4 top-6 w-5 h-5 bg-accent rounded-full border-4 border-background" />
                   <p className="text-accent text-sm font-semibold mb-2">{exp.type}</p>
@@ -109,9 +108,8 @@ const Experience = () => {
               {education.map((edu, idx) => (
                 <div
                   key={edu.institution}
-                  className={`backdrop-blur-md bg-surface-light/40 border border-accent/10 hover:border-accent transition-all duration-300 hover:shadow-lg hover:shadow-accent p-6 rounded-lg ${
-                    isVisible ? `animate-in-right stagger-${idx + 1}` : ""
-                  }`}
+                  className={`backdrop-blur-md bg-surface-light/40 border border-accent/10 hover:border-accent transition-all duration-300 hover:shadow-lg hover:shadow-accent p-6 rounded-lg ${isVisible ? `animate-in-right stagger-${idx + 1}` : ""
+                    }`}
                 >
                   <h3 className="text-xl font-bold text-foreground mb-2">{edu.institution}</h3>
                   <p className="text-accent text-sm mb-4">{edu.field}</p>
