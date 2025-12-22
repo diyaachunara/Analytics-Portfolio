@@ -23,22 +23,6 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: "Web Development",
-      icon: "🌐",
-      skills: [
-        "HTML/CSS",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "Next.js",
-        "Tailwind CSS",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Firebase",
-      ],
-    },
-    {
       title: "Data & Analytics",
       icon: "📊",
       skills: [
@@ -87,7 +71,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {skillCategories.map((category, idx) => (
             <div
               key={category.title}
