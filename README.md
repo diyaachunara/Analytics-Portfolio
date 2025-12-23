@@ -1,5 +1,5 @@
 
-##📊 Data Analyst | Python • SQL • Excel • Power BI • Tableau
+## 📊 Data Analyst | Python • SQL • Excel • Power BI • Tableau
 
 I analyze, clean, and visualize data to uncover actionable insights and support smarter business decisions. Experienced in exploratory data analysis, dashboard creation, and data storytelling. Constantly learning and building real-world analytics projects.
 
