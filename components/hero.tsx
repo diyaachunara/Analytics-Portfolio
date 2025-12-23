@@ -35,12 +35,13 @@ const Hero = () => {
               </div>
 
               <p className="text-xl md:text-2xl text-foreground-secondary font-medium">
-                Full-Stack Developer & Data Analyst
+                Data Analyst
               </p>
 
               <p className="text-foreground-secondary leading-relaxed max-w-md">
-                I build fast, scalable web applications with modern technologies and transform complex data into
-                actionable insights using AI and analytics.
+                Aspiring Data Analyst with a strong analytical mindset and practical experience in
+                Python, SQL, Excel, and Power BI. Experienced in transforming raw data into meaningful insights through EDA, visualization,
+                and business-focused dashboards.
               </p>
 
               <div className="flex flex-wrap gap-4 pt-4">
@@ -87,7 +88,7 @@ const Hero = () => {
               {/* Character image container */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="relative w-full h-full rectangle-full overflow-hidden float-animation">
-                
+
                   <Image
                     src="/images/pf-20image.jpg"
                     alt="Diya Chunara - Tech Developer"
